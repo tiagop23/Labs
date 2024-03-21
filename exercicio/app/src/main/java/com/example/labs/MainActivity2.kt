@@ -12,7 +12,7 @@ class MainActivity2 : AppCompatActivity() {
 
         val buttonClick = findViewById<Button>(R.id.button2)
         buttonClick.setOnClickListener{
-            finish()
+            finishAffinity()
         }
 
         var name = intent.getStringExtra("name");
@@ -20,5 +20,3 @@ class MainActivity2 : AppCompatActivity() {
 
     }
 }
-
-

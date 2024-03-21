@@ -26,12 +26,11 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="match_parent"
-        android:layout_height="64dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close"
         android:layout_below="@id/nome"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="245dp"
-        android:layout_marginEnd="0dp"
-        android:text="Close" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
 
 </RelativeLayout>
