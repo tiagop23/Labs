@@ -15,4 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Labs"
 include(":app")
- 
+include(":app:data")
